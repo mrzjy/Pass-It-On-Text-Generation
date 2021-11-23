@@ -1,8 +1,10 @@
 # Pass It On
 
+[README-老司机版](README_zh.md)
+
 Corpus + Code + Trained Model for "pass it on" BiliBili meme.
 
-- [Pass It On](#pass-it-on)
+- Table of Content
     + [Context](#context)
     + [Requirement](#requirement)
     + [Data Description](#data-description)
