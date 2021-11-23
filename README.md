@@ -16,6 +16,7 @@ Corpus + Code + Trained Model for "pass it on" BiliBili meme.
       - [Inference](#inference)
         * [Generation Cases](#generation-cases)
       - [Training](#training)
+    + [Model Limits](#model-limits)
 
 ### Context
 
@@ -222,3 +223,8 @@ By default, we train for 10 epochs with batch_size=128. It's encouraged to apply
 ~~~
 python train_latent.py --model_dir=$your_model_dir --train=data/train.samples
 ~~~
+
+### Model Limits
+Since it's totally a data-driven method, this model might generate weird or non-fluent sentences for unseen or out-of-domain inputs, which is quite reasonable.
+
+By the way, any additional interesting corpus is welcomed.
